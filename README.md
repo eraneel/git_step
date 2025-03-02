@@ -10,7 +10,9 @@ Setting Up Git
 code 
 <br>
 git config --global user.name "Your Name"   # git user name
+
 git config --global user.email "youremail@domain.com" # git mail_id
+
 git config --list  # display all of the configuration items that have been set by typing:
 
 Output
@@ -20,6 +22,7 @@ user.email=youremail@domain.com
 # or
 
 vi ~/.gitconfig  # The information you enter is stored in your Git configuration file, which you can optionally edit by hand with a text editor like this 
+
 ~/.gitconfig contents
 
 [user]
